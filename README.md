@@ -2,8 +2,8 @@
 This bot is allow you to Control Your Servers inside vps.
 
 # i got this idea form
-[Guck](https://github.com/GuckTubeYT)
-[Clayne](https://github.com/ClayneID)
+- [Guck](https://github.com/GuckTubeYT)
+- [Clayne](https://github.com/ClayneID)
 
 # commands
 .help
@@ -16,4 +16,5 @@ This bot is allow you to Control Your Servers inside vps.
 
 - this repository is countinued (means will update)
 
+# gtos only, no gtos gapapa ganti aja path nya
 # ignore my bad code design fuck kaya air terjun
