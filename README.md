@@ -1,5 +1,6 @@
 # GTPS-Controller-V2
 This bot is allow you to Control Your Servers inside vps.
+- **INSTAL: npm install / npm i**
 
 # i got this idea form
 - [Guck](https://github.com/GuckTubeYT)
