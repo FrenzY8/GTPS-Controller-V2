@@ -1,3 +1,5 @@
+/* TEMPLATE: CLAYNEID */
+
 const Discord = require('discord.js')
 var fs = require('fs');
 // const getFolderSize = require('get-folder-size');
@@ -10,7 +12,7 @@ var randomColor = require('randomcolor');
 const { MessageCollector } = require("discord-collector");
 
 const prefix = "."
-const owner = "833213256155922432"
+const owner = "833213256155922432" // your id
 
 const nomoracak = Math.floor((Math.random()*100) + 1);
 const bulan = new Date();
@@ -63,7 +65,7 @@ message.reply("```yaml\nServer - Informations Bot\n.status\n.playerinfo (name)\n
   if(!growid) {
     message.reply(`usages: ${prefix}playerinfo freenzy`)
   } else {
-    if(growid == "freenzysg" || growid == "chocolayz") {
+    if(growid == "YOUR_NAME" || growid == "YOUR_NAME") {
         message.reply("TIME_OUT! i cannot scan **Creator** accounts.")
         return;
     }
@@ -92,7 +94,8 @@ message.reply("```yaml\nServer - Informations Bot\n.status\n.playerinfo (name)\n
 message.reply(`please wait getting information of ${growid} (maybe taking 3 seconds)`)
 .then((msg)=> {
   setTimeout(function(){
-
+      
+// YOU CAN CHANGE THIS TO YOUR ROLE ID AND NAME
 function readAdmin () {
     if(adminLevel == "0") {
        //  const player;
