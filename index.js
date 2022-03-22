@@ -143,13 +143,8 @@ readAdmin()
   }
                 } else {
                     if(command == "serverinfo") {
-                        // Count
                         const totalWorld = fs.readdirSync("./save/worlds").length
                         const totalPlayers = fs.readdirSync("./save/players").length
-
-                        // Get size
-
-                        //sized
                         message.reply(`Server Database Count\n\nWorld totals: ${totalWorld}\nPlayer totals: ${totalPlayers}`)
                     } else {
                         if(command == "checkgems") {
@@ -230,7 +225,7 @@ if(!theguild) {
         message.reply(`${theguild} is free to use! no one use thats name! create your guild with name ${theguild} now!`)
     }
 }
-                                        } else {
+                          } else {
                                             if(command == "checkworldban") {
 const worldname = args[0]
 if(!worldname) {
@@ -246,7 +241,7 @@ message.reply(`list who have banned on ${worldname}: \n${file}`)
     message.reply(`no ones banned in ${worldname}`)
 }
 }
-                                            } else {
+                          } else {
                             if(command == "givegems") {
                                 if(message.author.id == owner) {
 const playername = args[0]
