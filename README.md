@@ -7,15 +7,27 @@ This bot is allow you to Control Your Servers inside vps.
 - [Clayne](https://github.com/ClayneID)
 
 # commands
-.help
-.checkworld
-.checkguild
-.resetgems
-.givegems
-.playerinfo
+User commands
 .status
+.checksub
+.totalregisterip
+.totalipban
+.worldinfo
+.totalrenderworld
+.playerinfo (name)
+.aboutserver
+.checkworld
+.checkworldban
+.checkguild
+.report
+.checkgems
+.totalpunch
+
+Owner only
+.deleteworld
+.deleteplayer
+.resetgems
 
 - this repository is countinued (means will update)
 
 # gtos only, no gtos gapapa ganti aja path nya
-# ignore my bad code design fuck kaya air terjun
