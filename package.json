@@ -5,6 +5,7 @@
     "discord.js": "^13.6.0",
     "get-folder-size": "^3.1.0",
     "line-reader": "^0.4.0",
-    "randomcolor": "^0.6.2"
+    "randomcolor": "^0.6.2",
+    "replace-json-property": "^1.8.0"
   }
 }

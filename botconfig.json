@@ -1,3 +1,9 @@
 {
- "token": "tokens",
+ "token": "",
+ "servername": "TESTSERVERNAME",
+ "ownerid": "99999",
+ "ownergrowid": "FreenzySG",
+ "report_channel_id": "231323231313123",
+ "enetname": "server.exe",
+ "online_count_file": "online_count.txt"
 }
